@@ -18,8 +18,6 @@ Dependent variable (DV): stroke(yes then 1 /No then 0)
 
 data shape - (5110, 12)
 
-**Feature importance found out**: Age > Working status > Work type
-
 SMOTE used because of imbalanced dataset- for DV (249 (stroke yes) out of 5110 ) 
 
 ## Logistic regression
@@ -58,3 +56,4 @@ Accuracy: 0.8146,
 ROC AUC Score: 0.78
 
 Here the best model is XG Boost. 
+**Feature importance found out**: Age > Working status > Work type
